@@ -24,7 +24,11 @@ PM_START = """Hello {}, My Name is {}!
 
 You know how hard it is sometimes to manage group so here is the solution for you
 
-I'm group manager bot 🃏
+🛠️I'm group manager bot 🃏
+
+🚸Join Our Channel @mizolibrary
+
+©️Made by @rsrmusic
 
 Click /help or Help button below to find out more about how to use me to my full potential.
 """
