@@ -91,7 +91,7 @@ def new_member(bot: Bot, update: Update):
         for new_mem in new_members:
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
-                bot.send_message(chat.id, "Hi. My Godfather just joined the group, Please behave on yourself 😒")
+                bot.send_message(chat.id, "Yes...Welcome Master😍😘")
                 continue
 
             # Give start information when add bot to group
@@ -211,7 +211,7 @@ def left_member(bot: Bot, update: Update):
 
             # Give the owner a special goodbye
             if left_mem.id == OWNER_ID:
-                update.effective_message.reply_text("Its My Master")
+                update.effective_message.reply_text("😒😭😭Goodbye Master")
                 return
 
             # if media goodbye, use appropriate function for it
